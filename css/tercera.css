@@ -1,0 +1,45 @@
+body{
+                    font-family: 'Comfortaa', cursive;
+
+}
+
+.select-country{
+	font-size: 20px;
+}
+
+.glyphicon-chevron-left{
+	font-size: 30px;
+    margin-left: 100%;
+    margin-top: 5%;
+}
+
+.uno{
+	margin-top: 6%;
+}
+
+.container-select{
+	    margin-left: 205%;
+	    	margin-top: 10%;
+
+
+}
+.cerrar{
+font-size: 20px;
+
+}
+
+.common{
+	margin-left: 3%;
+}
+
+.caja-common{
+    border-top: 1px black;
+    background-color: rgba(0,0,0,.075);
+    padding-bottom: 1%;
+    padding-top: 2%;
+        border-top: 1px solid gray;
+
+}
+
+
+
