@@ -10,15 +10,15 @@
 }
 /*CONTENEDOR DE BOTONES*/
 .botones{
-	width: 100%;
+	width: 95%;
 	position: fixed;
-	bottom: 60px;
+	bottom: 100px;
 }
 /*BOTONES*/
 .btn{
 	background: transparent;
-	width: 30%;
-	height: 40%;
+	width: 32%;
+	height: 45%;
 	border-color: #FF0078;
 	margin: 10px;
 	font-family: 'Comfortaa', cursive;
@@ -32,6 +32,19 @@
 	opacity: 0.9;
 	border-color: transparent;
 }
+
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color:#FF0078;
+    border-color: #FF0078;
+}
+
+
+.btn:visited {
+    color: #fff;
+    background-color:#FF0078;
+    border-color: #FF0078;}
 
 /*LOGO*/
 
