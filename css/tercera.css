@@ -5,6 +5,8 @@ body{
 
 .select-country{
 	font-size: 20px;
+        color: #FF0078;
+
 }
 
 .glyphicon-chevron-left{
@@ -43,3 +45,32 @@ font-size: 20px;
 
 
 
+.img-bandera{
+
+    max-width: 30%;
+    width: 67px;
+}
+
+.pais{
+    font-size: 14px;
+    margin: 6%;
+    display:inline-block;
+
+}
+
+.contiene-bandera{
+    margin: 2% 2%;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 3%;
+}
+
+.links-ban:focus, .links-ban:hover {
+    color: #FF0078;
+
+    text-decoration: none;
+}
+
+
+.links-ban{
+    color: #555;
+}

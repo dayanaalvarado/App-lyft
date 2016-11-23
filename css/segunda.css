@@ -79,3 +79,25 @@ font-size: 14px;
 
     }
 
+.contenedor-bandera{
+    display: inline-block;
+}
+
+.banderas{
+      margin-top: 8%;
+    margin-bottom: 8%;
+    display: inline-block;
+}
+
+.links-banderas{
+      text-decoration-style: none;
+  text-decoration-line: none;
+    border: 1px solid #ccc;
+    padding: 13% 3% 13% 8%;
+    border-radius: 8%;
+}
+
+.links-banderas:hover{
+  text-decoration-style: none;
+  text-decoration-line: none;
+}
