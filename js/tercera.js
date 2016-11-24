@@ -1,8 +1,8 @@
 $(function() {
 var offset = $("#fijo").offset();
-var topPadding = 15;
+var topPadding = 100;
 $(window).scroll(function() {
-if ($("#fijo").height() < $(window).height() && $(window).scrollTop() > offset.top) { /* LINEA MODIFICADA POR ALEX PARA NO ANIMAR SI EL fijo ES MAYOR AL TAMANO DE PANTALLA */
+if ($("#fijo").height() < $(window).height() && $(window).scrollTop() > offset.top) { 
 $("#fijo").stop().animate({
 marginTop: $(window).scrollTop() - offset.top + topPadding
 });
@@ -13,3 +13,5 @@ marginTop: 0
 };
 });
 });
+
+//ARREGLAR LA FUNCION
