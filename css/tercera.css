@@ -4,9 +4,6 @@ body{
 }
 
 
-.fijo{
-    position: fixed;
-}
 
 .select-country{
 	font-size: 20px;
@@ -84,13 +81,15 @@ margin-right: 30%;
 }
 
 .orden-alfabetico{
-    font-size: 12px;
-margin-right: 30%;
-margin-top:105%;
-
+margin: 0 auto;
 }
  
  .contenedor-alfabeto{
+    height: 90%;
     position: fixed;
-    margin-top: 1%;
+        max-height: 100vh;
+        margin-top: 0;
+        margin-bottom: 0;
  }
+
+ 
