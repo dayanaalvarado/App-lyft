@@ -3,6 +3,11 @@ body{
 
 }
 
+
+.fijo{
+    position: fixed;
+}
+
 .select-country{
 	font-size: 20px;
         color: #FF0078;
@@ -87,5 +92,5 @@ margin-top:105%;
  
  .contenedor-alfabeto{
     position: fixed;
-    margin-top: 2%;
+    margin-top: 1%;
  }
