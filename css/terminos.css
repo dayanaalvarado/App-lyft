@@ -1,0 +1,34 @@
+.logo{
+  width: 30%;
+}
+
+body{
+                  font-family: 'Comfortaa', cursive;
+color: #D91AA0;
+}
+
+.titulo{
+  margin-top: 5%;
+  color: black;
+}
+
+.texto{
+margin-top: 5%;
+font-size: 14px;
+padding: 20px;
+line-height: 20px;
+}
+
+
+.contenedor-texto{
+  margin: 4%;
+  -webkit-box-shadow: 2px 2px 26px -1px rgba(230,18,89,0.52);
+-moz-box-shadow: 2px 2px 26px -1px rgba(230,18,89,0.52);
+box-shadow: 2px 2px 26px -1px rgba(230,18,89,0.52);
+}
+
+.cerrar{
+font-size: 20px;
+    margin-left: 91%;
+
+}

@@ -1,0 +1,178 @@
+* {
+	margin:0;
+	padding:0;
+}
+ 
+body {
+	background:#FFFFFA;
+	font-family: 'Comfortaa', cursive;
+
+}
+ 
+header {
+	width:100%;
+	z-index: 20;
+}
+ 
+
+ /* fondo color contenedor  de enlaces*/
+header nav {
+	width:40%;
+	max-width:1000px;
+	margin:20px auto;
+	background:#ffffff;
+}
+ 
+.menu_user {
+	display:none;
+}
+
+section  {
+    padding: 20px 20px 0px 20px !important}
+ 
+header nav ul {
+	overflow:hidden;
+	list-style:none;
+}
+ 
+header nav ul li {
+	float:left;
+}
+ 
+
+ /* fondo menu desplegable*/
+header nav ul li a {
+    color: #31708f; /*color tipo sin click*/
+    padding: 18px 14px 12px 14px;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    text-decoration: none;
+}
+ 
+header nav ul li span {
+	margin-right:10px;
+}
+  
+
+  /* FONDO CONTENDEDOR EN HOVER COLOR BLANCO*/
+header nav ul li a:hover {
+	background:#ffffff;
+	text-decoration: none;
+}
+
+/*LINKSSS*/
+a:link {
+	text-decoration: none;
+}
+
+a:visited{
+	text-decoration: none;
+
+}
+
+a:active{
+	text-decoration: none;
+		color:#D91AA0;
+
+}
+ 
+section {
+	padding:20px;
+}
+ 
+
+ /*menu desplegable media query fondo y mas*/
+@media screen and (max-width:800px ) {
+	header nav {
+		width:60%;
+		height:80%;
+		left:-100%;
+		margin:0;
+		position: fixed;
+	}
+ 
+	header nav ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+ 
+	.menu_user {
+		display:block;
+		width:100%;
+	}
+ 
+	.menu_user .bt-menu {
+		display:block;
+		padding:45px;
+	background-image: url(../img/user.png);
+		background-repeat: no-repeat;
+		text-decoration:none;
+		    background-size: 70px 70px;
+    		margin-left: -143%;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+ 
+	.menu_user span {
+		float:right;
+		font-size:40px;
+	}
+}
+
+
+
+/* USER menu desplegable*/
+
+
+
+.iconos{
+	transition: 1.5s ease;
+ 		-moz-transition: 1.5s ease; /* Firefox */
+ 		-webkit-transition: 1.5s ease; /* Chrome - Safari */
+ 		-o-transition: 1.5s ease; /* Opera */
+}
+
+.iconos:hover{
+	transform : scale(1.2);
+		-moz-transform : scale(1.2); /* Firefox */
+		-webkit-transform : scale(1.2); /* Chrome - Safari */
+		-o-transform : scale(1.2); /* Opera */
+		-ms-transform : scale(1.2); /* IE9 */
+		margin-left: 5%;
+				color:#D91AA0;
+
+
+}
+
+/*logo*/
+
+
+.logo{
+       width: 27%;
+    margin-top: 3%;
+    margin-left: 123px;
+    z-index: 3;
+    position: absolute;
+}
+
+.regalo{
+       z-index: 10;
+    width: 66px;
+    margin: 0px 12px 21px 256px;
+}
+
+.regalo-cont{
+	width: 100%;
+	z-index: 10;
+}
+
+
+
+
+/*GEO LOCATION*/
+#ubicacion{
+	width: 100%;
+	height: 60%;
+}
