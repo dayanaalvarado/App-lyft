@@ -123,15 +123,17 @@ body{
     display: inline-block;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
-    box-sizing: content-box;
+    /* box-sizing: content-box; */
     padding: 8px 7px;
-    border: 1px solid #ddd;
     -webkit-border-radius: 3px;
     border-radius: 3px;
-    color:  #D91AA0;
+    color: #D91AA0;
     background: rgba(252,252,252,1);
-    -webkit-box-shadow: 2px 2px 2px 0 rgba(237,28,104,0.2);
-    box-shadow: 2px 2px 2px 0 rgba(237,28,104,0.2);
-    -webkit-transform: rotateY(-11.459155902616464deg);
-    transform: rotateY(-11.459155902616464deg);
+    color: #555;
+    border: 1px solid #ccc;
+}
+
+img{
+      display: inline-block;
+    width: 50px;
 }
