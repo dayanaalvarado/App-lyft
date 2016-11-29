@@ -91,3 +91,19 @@ body{
   background: -webkit-gradient(linear, left top, left bottom, from(#CF11AF), to(#DE51EE));
   background: -moz-linear-gradient(top,  #CF11AF,  #DE51EE);
 }
+
+.errores{
+  -webkit-boxshadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background: #da29ab;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  display: none;
+  font-size: 13px;
+  margin-top: 12px;
+  margin-left: 157px;
+  padding: 7px;
+  position: absolute;
+  z-index: 30;
+}
