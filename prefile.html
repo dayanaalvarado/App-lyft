@@ -27,17 +27,21 @@
 		<!-- CONTAINER PRINCIPAL-->
 		<section class="principal-dos">
 			<div class="row">
-				<div class="foto-perfil">
+					<img class="foto-perfil"  alt="">
 					<div class="col-xs-2 col-sm-2 col-md-2 uno">
 						<a class="volver-atras" href="cinco.html">
 							<i class="fa fa-bars" aria-hidden="true"></i>
 						</a>
 					</div>
-					<div class="col-xs-5 col-sm-5 col-md-5 dos"></div>
-					<div class="col-xs-5 col-sm-5 col-md-5 tres">
-						<a class="button" href="prefile.html">Edit Profile</a>
+					<div class="col-xs-offset-6"></div>
+					<div class="col-xs-4 col-sm-4 col-md-4 tres">
+					<a class="button" href="#"> 
+						<label class="btn btn-primary button">
+                			<i class="fa fa-file-image-o" aria-hidden="true"></i>
+							Edit&hellip; <input type="file" onchange="previewFile()" style="display: none;">
+            			</label>
+            		</a>
 					</div>
-				</div>
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 text-center">
@@ -86,6 +90,8 @@
 					</div>
 				</div>
 			</div>
+			
 	   	</section>
+	      <script type="text/javascript" src="js/seis.js"></script>
 </body>
 </html>
