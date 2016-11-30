@@ -80,14 +80,36 @@ display: inline-block;
 }
 
 .contenedor-descripcion{
-margin-left: 10%;
-margin-top: 15%;
+    margin-top: 8%;;
 
 }
 
 .descripcion{
-margin-top: 3%;}
+margin-top: 3%;
+    margin-left: 13%;
+}
 
 .iconos{
     margin-right: 19px;
+    font-size: 26px !important;
+    color:rgba(245, 2, 173, 0.94);
+}
+
+
+.editar{
+    font-size: 16px;
+    color:rgba(1, 0, 255, 0.27)
+}
+.guardar{
+    font-size: 16px;
+color:rgba(1, 0, 255, 0.27)}
+
+
+
+a { 
+    text-decoration: none; 
+}
+
+a:hover { 
+    text-decoration: none; 
 }

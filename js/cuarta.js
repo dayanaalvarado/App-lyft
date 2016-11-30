@@ -9,7 +9,8 @@
                 //Y tener mejor manipulación de dichos valores
                 var nombre = $("#name").val();
                 var correo = $("#email").val();
- 
+                var check = $("#checkbox").is(':checked');
+
                 // --- Condicionales anidados ----
                 //Si nombre está vacío
                 //Muestra el mensaje
@@ -42,3 +43,26 @@
  
             });//click
         });//ready
+
+      /*  $(document).ready(function(){
+
+var check = $("#checkbox").is(':checked');
+
+
+    $('#enviar').click(function(){ 
+        if($('#checkbox').is(':checked')){
+            $("#mensaje1").fadeIn("slow");
+                        return false;
+        }
+          else{
+            $("#mensaje1").fadeOut();
+
+           
+        
+        } 
+
+        });
+});*/
+
+
+

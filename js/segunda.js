@@ -67,9 +67,6 @@ for (var i=0 ; i<paises.length ; ++i){
 $('#elegir-paises img').attr('src', pais.bandera);
 $('#prefijo').html(pais.prefijo);
 
-function validar(frm) {
-  if (frm.txt.value.length!=9) {
-    alert('error');
-    frm.txt.focus();
-  }
-}
+
+//validar numero de caracteres del input
+
